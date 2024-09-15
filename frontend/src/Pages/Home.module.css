@@ -6,7 +6,7 @@
     font-family: "Roboto", sans-serif;
   } */
   
-  body {
+  .main{
     font-family: "Roboto", sans-serif;
     display: flex;
     margin: 0;
@@ -16,7 +16,6 @@
     align-items: center;
     background: linear-gradient(82deg, #c84ad3 0%, #47ffd3 100%);
     height: 100vh;
-    /* width: 100vw; */
   }
   
   .homeContainer {

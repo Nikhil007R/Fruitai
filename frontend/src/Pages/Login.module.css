@@ -1,4 +1,4 @@
-/* General Styling */
+
 .parent {
     display: flex;
     height: 95vh;
@@ -9,7 +9,6 @@
 
 .login_container {
     height: 80vh;
-    /* border: 2px solid red; */
     width: 30%;
     display: flex;
     justify-content: center;
@@ -21,7 +20,6 @@
 }
 
 .main_content {
-    /* border: 2px solid black; */
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
     border-radius: 25px;
     padding: 20px;
@@ -34,7 +32,6 @@
 }
 
 .email_container {
-    /* margin-top: 20px; */
     margin: 20px 0px 7px 0px;
     display: flex;
     justify-content: center;
@@ -80,7 +77,6 @@
     font-size: 2rem;
 }
 
-/* Media Queries for Responsiveness */
 @media (max-width: 768px) {
     .login_container {
         width: 80%;
@@ -150,3 +146,182 @@
         font-size: 2rem;
     }
 }
+
+
+/* .parent {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto Slab", serif;
+}
+
+.login_container {
+    height: 80vh;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 25px;
+    border-radius: 35px;
+}
+
+.main_content {
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.login_fonts {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.terms_text {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.terms_Condition {
+    color: #0386d0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.loginregister {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.login_text, .register_text {
+    cursor: pointer;
+    font-weight: bold;
+    color: #0386d0;
+}
+
+.email_container, .pass_container {
+    margin: 20px 0px 7px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_color {
+    margin-right: 10px;
+}
+
+.inputstyles {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.rememberForget {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.rememberPassword, .forgotPassword {
+    color: #0386d0;
+    font-weight: bold;
+}
+
+.btn {
+    width: 65%;
+    background-color: #0386d0;
+    color: white;
+    padding: 10px 0px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: none;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    background-color: #007ab9;
+    font-weight: 500;
+}
+
+.orConnect {
+    margin-bottom: 15px;
+}
+
+.socialHandles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    font-size: 2rem;
+}
+
+.fingerprint {
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .login_container {
+        width: 80%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .main_content {
+        padding: 15px;
+        width: 100%;
+    }
+
+    .inputstyles {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .login_fonts {
+        font-size: 1.4rem;
+    }
+
+    .socialHandles {
+        font-size: 1.5rem;
+    }
+
+    .fingerprint {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .login_container {
+        width: 95%;
+    }
+
+    .main_content {
+        padding: 10px;
+    }
+
+    .login_fonts {
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        padding: 8px 0;
+    }
+
+    .socialHandles {
+        font-size: 1.3rem;
+    }
+
+    .fingerprint {
+        font-size: 2rem;
+    }
+} */

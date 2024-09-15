@@ -1,0 +1,265 @@
+/* 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  li img {
+    max-width: 100px;
+    display: block;
+    margin: 10px 0;
+  }
+  
+  li h3 {
+    margin: 0 0 5px 0;
+    color: #333;
+  }
+  
+  li p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+
+  a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .addNew {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .addNew:hover {
+    background-color: #0056b3;
+  }
+
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    li {
+      padding: 10px;
+    }
+  
+    li h3 {
+      font-size: 18px;
+    }
+  
+    li p {
+      font-size: 13px;
+    }
+  
+    li img {
+      max-width: 80px;
+    }
+  
+    .addNew {
+      font-size: 14px;
+      padding: 8px 15px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    li h3 {
+      font-size: 16px;
+    }
+  
+    li p {
+      font-size: 12px;
+    }
+  
+    li img {
+      max-width: 60px;
+    }
+  
+    .addNew {
+      font-size: 12px;
+      padding: 6px 12px;
+    }
+  } */
+
+/* Container styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #f4f7fb;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .listh2 {
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .addNew {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 24px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .addNew:hover {
+    background-color: #ff3f30;
+  }
+  
+  /* Grid layout for FAQs */
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .faqCard {
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .faqCard:hover {
+    transform: translateY(-5px);
+  }
+  
+  .faqImage {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .faqContent {
+    padding: 20px;
+  }
+  
+  .faqContent h3 {
+    font-size: 20px;
+    color: #ff6f61;
+    margin-bottom: 10px;
+  }
+  
+  .question {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  
+  .answer {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .actionLinks {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .updateLink,
+  .deleteLink {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .updateLink:hover {
+    text-decoration: underline;
+    color: #0056b3;
+  }
+  
+  .deleteLink:hover {
+    text-decoration: underline;
+    color: #ff3f30;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .addNew {
+      margin-top: 10px;
+      padding: 8px 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .faqContent h3 {
+      font-size: 18px;
+    }
+  
+    .question {
+      font-size: 15px;
+    }
+  
+    .answer {
+      font-size: 13px;
+    }
+  
+    .actionLinks a {
+      font-size: 12px;
+    }
+  
+    .addNew {
+      padding: 6px 12px;
+      font-size: 14px;
+    }
+  }
+  

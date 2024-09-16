@@ -48,8 +48,8 @@ This is a full-stack application for health manager product. The frontend is bui
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-repository.git
-   cd your-repository/faqapi
+   git clone https://github.com/Nikhil007R/Fruitai.git
+   cd Backend/faqapi
 
 2. Create and activate virtual environment:
 

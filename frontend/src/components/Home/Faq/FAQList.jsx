@@ -80,6 +80,7 @@ const FAQList = () => {
               <div className={styles.actionLinks}>
                 <Link to={`/faq/update/${faq.id}`} className={styles.updateLink}>Update</Link>
                 <Link to={`/faq/delete/${faq.id}`} className={styles.deleteLink}>Delete</Link>
+                <Link to={`/faq/${faq.id}`} className={styles.viewLink}>View Details</Link>
               </div>
             </div>
           </div>

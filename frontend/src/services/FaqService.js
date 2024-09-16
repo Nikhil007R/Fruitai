@@ -7,6 +7,11 @@ export const getFAQs = () => {
   return axios.get(API_URL);
 };
 
+// get FAQs by id 
+export const getFAQById = (id) => {
+    return axios.get(`${API_URL}${id}/`);
+  };
+
 // Add a new FAQ
 export const addFAQ = (faq) => {
   return axios.post(`${API_URL}`, faq);

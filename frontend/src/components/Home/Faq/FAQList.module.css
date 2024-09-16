@@ -211,7 +211,8 @@
   }
   
   .updateLink,
-  .deleteLink {
+  .deleteLink,
+  .viewLink {
     color: #007bff;
     text-decoration: none;
     font-size: 14px;
@@ -225,6 +226,11 @@
   .deleteLink:hover {
     text-decoration: underline;
     color: #ff3f30;
+  }
+
+  .viewLink:hover{
+    text-decoration: underline;
+    color: #0056b3;
   }
   
   /* Responsive Design */

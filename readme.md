@@ -18,7 +18,6 @@ This is a full-stack application for health manager product. The frontend is bui
 - **App.jsx**: The main application file that contains all the routes for different pages.
 - **Pages/**: Contains the main pages (Login, Home) of the application.
 - **components/Home/**: This folder contains components related to the Home section, including the Chatbot, FAQ management, Translator, and About page.
-  - **ChatBot/**: The Chatbot component.
   - **Faq/**: Contains FAQ-related components such as `FAQList`, `AddFAQ`, `UpdateFAQ`, `DeleteFAQ`, and `FAQDetail`.
   - **Translator/**: The Translator component.
   - **About/**: The About page component.
